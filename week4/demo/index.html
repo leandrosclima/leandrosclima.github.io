@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 4 Demo</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="https://www.w3schools.com" target="_blank"> W3 School</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>HOME</h1>
+        <!-- <img src="img/cat.jpg" alt="Black cute cat." title="You lost the game"> -->
+        <!-- This is how I linked an image -->
+        <table>
+            <tr>
+                <th>First name</td>
+                <th> Last name</td>
+                <th>Favourite Pet</td>
+                <th>Help me</td>
+            </tr>
+            <tr>
+                <td>Leandro</td>
+                <td>Lima</td>
+                <td colspan="2">Dog</td>
+            </tr>
+       </table>
+    </main>
+    <footer>
+        <form action="confirmation.html" method="post">
+            <label for="fullname">Name:</label>
+            <input id="fullname" placeholder="Your name here"name="name">
+            <br>
+            <label for="cats">Cats:</label>
+            <input id="cats"type="radio"name="pets" value="cats">
+            <label for="dogs">Dogs:</label>
+            <input id="dogs"type="radio"name="pets" value="dogs">
+            <label for="ham">Ham:</label>
+            <input id="ham"type="radio"name="pets" value="ham">
+            <br>
+            <input type="date">
+            <br>
+            <select id=”foods” name=”foods”>
+                <option value=”pizza”>Pizza</option>
+                <option value=”pie”>Pie</option>
+                <option value=”yogurt”>Yogurt</option>
+            </select>
+            <br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </footer>
+    
+</body>
+</html>
