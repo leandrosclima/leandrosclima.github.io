@@ -1,0 +1,119 @@
+/* Selectors */
+
+/* Element selector
+- Select all the tags of the same type */
+
+h1 {
+    color:rgb(26, 17, 78);
+}
+
+
+/* Targeting multiple elements
+- If you’d like to style more than one element the same way you can use a comma to separate the tag names. */
+
+h2, h3 {
+    color:rgb(180, 86, 86);
+
+  
+}
+
+
+/* Some elements have default styling applied in the browser that you have to consider. The p element has margin top and bottom. */
+
+
+
+
+/* . Class selector
+- Select an element that has a class */
+
+.profile-pic {
+    width:50%;
+}
+
+
+/* # ID selector
+- Select an element that has has the ID - remember you can only have one unique ID per page */
+#header-text {
+    font-size:20px;
+}
+
+
+
+
+/* + Adjacent sibling
+- Select an element immediately beside another element */
+
+
+
+
+/* Element selector
+- Affecting multiple h2 on the page */
+
+h1 + p {
+    font-size: 40px;
+}
+
+/* > Child selector 
+- Select an element directly inside another element */
+
+section > p {
+    color:blueviolet
+}
+
+
+
+
+/* [] Attribute
+- Select an element by it’s attribute. */
+
+[rel="external"] {
+    color:chocolate;
+}
+
+
+
+/* Pseudo classes */
+
+/* :nth-child()
+- Select an element by it’s number OR odd/even. */
+
+ul li:nth-child(2)
+{
+    background-color: green;
+}
+
+
+/* :last-child
+- Select the element when it’s the last inside its parent. */
+
+ul li:last-child {
+    background-color: red;
+}
+
+
+/* :first-of-type
+- Select an element that’s the first of its kind within its parent. */
+
+ul li:first-child {
+    background-color: blue;
+}
+
+
+
+
+/* Removing bullets and changing bullet type */
+
+ul {
+    list-style-type: none;
+}
+
+ul:hover {
+    list-style: circle;
+}
+
+
+/* Change link styling */
+a {
+    text-decoration: none;
+    color:beige;
+}
